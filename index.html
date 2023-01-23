@@ -1,0 +1,105 @@
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+
+	<script>
+		function openKota(namaKota) {
+		var i;
+		var x = document.getElementsByClassName("kota");
+		for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+		}
+		document.getElementById(namaKota).style.display = "block";
+		}
+	</script>
+	<div class="container w3-blue">
+	<center>
+	<img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461393109072/banner.jpg" width=100%>
+	</div>
+	
+	<div class="w3-bar w3-orange">
+		<button class="w3-bar-item w3-button" onclick="openKota('Home')"> Home </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Biodata')"> Biodata </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Top')"> Top </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Bottom')"> Bottom </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Left')"> Left </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Right')"> Right </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Opacity')"> Opacity </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Zoom')"> Zoom </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Fading')"> Fading </button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Spin')"> Spin </button>
+		<div class="w3-dropdown-hover">
+			<button class="w3-button"> w3 ANIMASI </button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button" onclick="openKota('Top')"> Top </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Bottom')"> Bottom </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Left')"> Left </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Right')"> Right </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Opacity')"> Opacity </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Zoom')"> Zoom </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Fading')"> Fading </button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Spin')"> Spin </button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="Home" class="w3-container kota" style="display:block">
+	<center>
+	<h1><b> MUHAMMAD ILHAM BAIHAQQI </b></h1>
+	<h2><b> 10122252</b></h2>
+	<hr>
+	<img src="https://media.discordapp.net/attachments/1052650790243795065/1066368462093557801/welcome.jpg">
+	</div>
+	
+	<center>
+			<div id="Biodata" class="w3-container w3-animate-zoom kota" style="display: none;">
+            	<h2 class="w3-black w3-center"><b>BIODATA</b></h2>
+				<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461850296400/profile.jpg?width=367&height=473" width=300px>
+				<hr>
+			 	<b>
+			 	<h3> MUHAMMAD ILHAM BAIHAQQI</h3>
+			 	<h3> 10122252</h3>
+			 	<h3> IF-7</h3>
+			 	</b>
+			</div>
+			
+					<div id="Top" class="w3-container w3-animate-top kota" style="display: none;">
+						<h2 class="w3-blue w3-center"><b>ANIMASI TOP</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+			
+					<div id="Bottom" class="w3-container w3-animate-bottom kota" style="display: none;">
+					<h2 class="w3-orange w3-center"><b>ANIMASI Bottom</b></h2>
+					<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+			
+					<div id="Left" class="w3-container w3-animate-left kota" style="display: none;">
+						<h2 class="w3-green w3-center"><b>ANIMASI Left</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+
+					<div id="Right" class="w3-container w3-animate-right kota" style="display: none;">
+						<h2 class="w3-red w3-center"><b>ANIMASI RIGHT</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+					
+					<div id="Opacity" class="w3-container w3-animate-opacity kota" style="display: none;">
+						<h2 class="w3-black w3-center"><b>ANIMASI OPACITY</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+
+					<div id="Zoom" class="w3-container w3-animate-zoom kota" style="display: none;">
+						<h2 class="w3-green w3-center"><b>ANIMASI ZOOM</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+
+					<div id="Fading" class="w3-container w3-animate-fading kota" style="display: none;">
+						<h2 class="w3-red w3-center"><b>ANIMASI FADING</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+					
+					<div id="Spin" class="w3-container w3-spin kota" style="display: none;">
+						<h2 class="w3-purple w3-center"><b>ANIMASI SPIN</b></h2>
+						<img class="w3-circle" img src="https://media.discordapp.net/attachments/1052650790243795065/1066368461627985962/bebek.jpg?width=473&height=473" width=300px>
+					</div>
+</html>
